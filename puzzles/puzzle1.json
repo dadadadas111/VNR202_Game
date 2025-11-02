@@ -1,0 +1,15 @@
+{
+  "gridRows": 7,
+  "gridCols": 18,
+  "acroCol": 6,
+  "answer-label": "Đổi mới ",
+  "blocks": [[0,0],[0,1],[0,2],[1,0],[1,1],[2,0],[4,0],[5,0],[6,0]],
+  "entries": [
+    {"n":1,"row":0,"col":6,"len":8,"clue":"Đại hội nào tổng kết 45 năm lãnh đạo cách mạng và đề ra đường lối cách mạng XHCN trong giai đoạn mới (tháng 12/1976)?","answer":"DAIHOIIV", "label": "Đại hội IV"},
+    {"n":2,"row":1,"col":5,"len":10,"clue":"Đại hội V (1982) xác định lĩnh vực nào là “mặt trận hàng đầu”?","answer":"NONGNGHIEP", "label": "nông nghiệp"},
+    {"n":3,"row":2,"col":4,"len":7,"clue":"Cuộc chiến đấu bảo vệ Tổ quốc năm 1979 diễn ra chủ yếu ở khu vực biên giới ...","answer":"PHIABAC", "label": "phía Bắc"},
+    {"n":4,"row":3,"col":0,"len":7,"clue":"Nghị quyết 25/CP (01/1981) áp dụng cơ chế khoán ... đến nhóm lao động và người lao động trong hợp tác xã nông nghiệp.","answer":"SANPHAM", "label": "sản phẩm"},
+    {"n":5,"row":4,"col":3,"len":11,"clue":"Ai được bầu làm Tổng Bí thư sau khi đồng chí Lê Duẩn qua đời (7/1986)?","answer":"TRUONGCHINH", "label": "Trường Chinh"},
+    {"n":6,"row":5,"col":5,"len":6,"clue":"Khủng hoảng 1985–1986 thể hiện rõ nhất ở lĩnh vực nào?","answer":"KINHTE", "label": "kinh tế"}
+  ]
+}

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Acrostic Projector Game</title>
+	<!-- Fonts: serif for headings, sans for body (Vietnamese support) -->
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<header>
+		<h1>Giải mã ô chữ</h1>
+		<p class="sub">Hãy tìm ra từ khóa bí ẩn để nhận thưởng!</p>
+	</header>
+
+	<main class="game-wrap">
+			<section class="board-area">
+				<div id="selectedClue" class="selected-clue" aria-live="polite">(Hãy chọn 1 hàng để trả lời)</div>
+				<div class="grid-wrap">
+					<div id="rowNumbers" class="row-numbers" aria-hidden="true"></div>
+					<div id="grid" class="grid" aria-label="crossword grid"></div>
+				</div>
+			<div class="controls">
+				<button id="resetBtn">Reset</button>
+				<button id="showAnswerBtn" class="primary">Hiện kết quả câu</button>
+				<button id="showAcrosticBtn" class="primary">Hiện chữ dọc</button>
+			</div>
+			<!-- <div class="solution">
+				<div class="solution-label">Giải đáp dọc (chữ hồng):</div>
+				<div id="solutionBoxes" class="solution-boxes"></div>
+			</div> -->
+		</section>
+
+		<aside class="clues">
+			<h2>Câu hỏi</h2>
+			<ul id="clueList"></ul>
+		</aside>
+	</main>
+
+	<footer>
+		<small>Made by Group 5</small>
+	</footer>
+
+		<!-- popup to show answer labels after reveal -->
+		<div id="answerPopup" class="answer-popup" aria-hidden="true">
+			<div class="answer-popup-inner">
+				<div id="answerPopupTitle" class="answer-popup-title"></div>
+				<div id="answerPopupMain" class="answer-popup-main"></div>
+				<strong><div id="answerPopupSub" class="answer-popup-sub"></div></strong>			</div>
+		</div>
+
+	<script src="js/app.js"></script>
+</body>
+</html>
