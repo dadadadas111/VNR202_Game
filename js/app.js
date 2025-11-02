@@ -337,8 +337,7 @@ function showAnswerForCurrent(){
 	// after animation completes, show popup with label (if provided)
 	const totalDelay = (ent.len * 90) + 320;
 	setTimeout(()=>{
-		const label = ent.label || ent.answer || 'Đáp án đúng';
-		showPopup({title:`Câu trả lời là:`, sub: ent.label || ''});
+		showPopup({title: '✓ Câu trả lời', main: ent.label || ent.answer || 'Đáp án', sub: ''});
 	}, totalDelay);
 }
 
@@ -388,7 +387,7 @@ function revealAcrosticColumn(){
 			const idx = ACRO_COL - e.col; return (e.answer && idx>=0 && idx < e.answer.length) ? e.answer[idx].toUpperCase() : '';
 		}).join('');
 		const label = PUZZLE_ANSWER_LABEL || 'Đáp án dọc';
-		showPopup({title: 'Ô chữ bí ẩn: ', sub: label});
+		showPopup({title: '✓ Chữ dọc bí ẩn', main: label, sub: ''});
 	}, totalDelay);
 }
 
